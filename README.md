@@ -19,3 +19,5 @@
 
 3.  Style it with zebra stripes using pseudo child selectors.
 4.  Do NOT use deprecated HTML attributes. Style using CSS.
+
+!["mockup-image"](/image/mockup.png)
