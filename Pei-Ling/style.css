@@ -11,5 +11,5 @@ tr, th, td {
 }
 
 .items:nth-of-type(even) {
-    background-color: gray;
+    background-color: rgb(109, 226, 134);
 }
