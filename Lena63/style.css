@@ -21,3 +21,7 @@ th {
 tr:nth-of-type(even) {
     background-color: rgba(184, 150, 150, 0.589);
 }
+
+tr:nth-of-type(even) td:not(:last-child) {
+    border-right: hidden;
+}
