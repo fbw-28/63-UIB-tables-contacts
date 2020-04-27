@@ -1,0 +1,46 @@
+table {
+    table-layout: fixed;
+    margin: 0 auto;
+   border-collapse: collapse;
+   width: 100%;
+   border: rgba(248, 232, 207, 0.8) 1px solid;
+
+ 
+    
+   
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(161, 148, 148, .10) ;
+   
+}
+
+th {
+   text-align: center;
+   background-color:white;
+   padding-left: 130px;
+ 
+}
+td{
+    padding: 5px;
+    width: 30%;
+    border: rgba(248, 232, 207, 0.8) 1px solid;
+    text-align: left;
+ 
+   
+
+    
+}
+ tbody th:nth-last-of-type(1){
+     width: 50%;
+ }
+ tbody td:nth-last-of-type(1){
+     text-align: end;
+ }
+
+
+ /* tbody td:nth-child(7) {
+    width: 50%;
+  } 
+
+  
