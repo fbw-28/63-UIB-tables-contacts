@@ -17,11 +17,7 @@ td {
     padding: 10px;
 }
 
-th {
-    background-color: white;
-}
-
-tr:nth-child(odd) {
+tr:nth-child(odd) td {
     background-color: #dcdcdc;
 }
 
