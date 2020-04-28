@@ -1,18 +1,14 @@
 table {
     width: 80%;
     margin: 10% auto;
-    border: 2px solid rgb(222, 223, 233);
     border-collapse: collapse;
-}
-tr:nth-last-of-type(even) {
-    background-color: rgb(222, 223, 233);
 }
 td:last-child {
     text-align: right;
 }
-tfoot {
-    background-color: rgb(222, 223, 233);
-}
 td, th {
     border: 2px solid rgb(222, 223, 233);
 }
+ tbody tr:nth-child(odd), tfoot {
+    background-color: rgb(222, 223, 233);
+} 
