@@ -1,0 +1,14 @@
+table {
+    width: 80%;
+    margin: 10% auto;
+    border-collapse: collapse;
+}
+td:last-child {
+    text-align: right;
+}
+td, th {
+    border: 2px solid rgb(222, 223, 233);
+}
+ tbody tr:nth-child(odd), tfoot {
+    background-color: rgb(222, 223, 233);
+} 
