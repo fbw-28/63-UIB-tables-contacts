@@ -1,0 +1,17 @@
+table{
+  margin: 0 auto;
+  width: 900px;
+}
+
+td{
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+td.third{
+    text-align: right;
+}
+
