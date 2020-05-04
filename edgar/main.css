@@ -12,19 +12,10 @@ body {
 table{
     width: 80%;
     margin: 0 auto;
-    border-style: inset;
-    border: 1px solid #ccc;
     border-collapse: collapse;
 }
 
-th{
-    padding: 8px;
-    background-color: #fff;
-    border-style: inset;
-    border: 1px solid #ccc;
-}
-
-tr:nth-of-type(odd){
+tr:nth-of-type(odd) td{
     background-color: #ccc;
 }
 
@@ -32,15 +23,10 @@ tr:last-child{
     font-weight: bold;
 }
 
-td{
+td, th{
     padding: 8px;
     border-style: inset;
     border: 1px solid #ccc;
-}
-
-
-td:nth-child(3){
-    text-align: right;
 }
 
 td:last-child{
