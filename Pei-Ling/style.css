@@ -1,15 +1,22 @@
-
 table {
-    margin: 10% auto;
-    border: 3px solid black;    
-    padding: 5px;
+  margin: 10% auto;
+  border: 1px solid lightgray;
+  width: 95%;
+  /* padding: 5px; */
+  border-collapse: collapse;
 }
 
-tr, th, td {
-    border: 1px solid black;
-    padding: 10px;
+th,
+tr,
+td {
+  border: 1px solid lightgray;
+  padding: 6px;
 }
 
 .items:nth-of-type(even) {
-    background-color: rgb(109, 226, 134);
+  background-color: lightgray;
+}
+
+.num {
+  text-align: right;
 }
